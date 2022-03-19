@@ -1,40 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Ramalan Sederhana</title>
-</head>
-
-<body>
-<h1>Ramalan Sederhana</h1>
-<p>Tidak Boleh Percaya</p>
-<h3>Tulis keinginan anda di bawah ini</h3>
-<form id="frm1">
-<input type="text" name="fname"><br>
-<br>
-<input type="button" onclick="myFunction()" value="Ramal">
-<br><br>
-<button onclick="window.location.reload()">Reset</button>
-
-<script>
-var r_text = new Array ();
-r_text[0] = "Gak Mungkinlah";
-r_text[1] = "Bisa Jadi";
-r_text[2] = "Mungkinlah";
-r_text[3] = "Yakin 100%";
-r_text[4] = "Astagfirullah main ramal2an";
-r_text[5] = "Ya Kali Bisa";
-r_text[6] = "Jangan Harap Bisa";
-var i = Math.floor(r_text.length * Math.random());
-
-function myFunction() {
-    document.getElementById("hasil").innerHTML = r_text[i];
-  ;
-}
-</script>
-
-<h1 id="hasil"></h1>
-
-</form>
-</body>
-
-</html>
+<h1 id="selamat-datang">Selamat Datang</h1>
+<p>Ini adalah halaman depan</p>
+<h3 id="kumpulan-permainan">Kumpulan Permainan</h3>
+<p><a href="https://yogipamadya.github.io/katlabekasi">1. KATLA BEKASI</a></p>
+<p><a href="https://yogipamadya.github.io/ramalan">2. Ramalan Palsu</a></p>
